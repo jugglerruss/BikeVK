@@ -53,9 +53,9 @@
     <type fullname="VFX.PostProcessControl" preserve="all" />
     <type fullname="VFX.SpeedParticle" preserve="all" />
     <type fullname="VFX.TrailParticle" preserve="all" />
-    <type fullname="Data.TranslatePair" preserve="nothing" serialized="true" />
     <type fullname="ScriptableObjects.TrickSettings/TrickScore" preserve="nothing" serialized="true" />
     <type fullname="Data.Sound" preserve="nothing" serialized="true" />
+    <type fullname="Data.TranslatePair" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="colorChange" preserve="all" />
