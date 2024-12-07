@@ -2,14 +2,17 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Animation.MoveAnimator" preserve="all" />
     <type fullname="Animation.RotateAnimator" preserve="all" />
+    <type fullname="Animation.ScaleAnimator" preserve="all" />
     <type fullname="Audio.AudioManager" preserve="all" />
     <type fullname="Audio.EngineSoundArcade" preserve="all" />
     <type fullname="Bike.AnimController" preserve="all" />
     <type fullname="Bike.CustomizeBike" preserve="all" />
+    <type fullname="Bike.DynamiteCollector" preserve="all" />
     <type fullname="Bike.MotorbikeController" preserve="all" />
     <type fullname="Bike.TargetLine" preserve="all" />
     <type fullname="Bike.TricksDetecter" preserve="all" />
     <type fullname="Input.InputController" preserve="all" />
+    <type fullname="Main.CameraController" preserve="all" />
     <type fullname="Main.Game" preserve="all" />
     <type fullname="Ragdoll.CollisionListener" preserve="all" />
     <type fullname="Ragdoll.RagdollControl" preserve="all" />
@@ -20,13 +23,13 @@
     <type fullname="ScriptableObjects.MarketList" preserve="all" />
     <type fullname="ScriptableObjects.TrickSettings" preserve="all" />
     <type fullname="TrackObjects.Checkpoint" preserve="all" />
-    <type fullname="TrackObjects.DartsFinish" preserve="all" />
     <type fullname="TrackObjects.DeleteTrigger" preserve="all" />
-    <type fullname="TrackObjects.Finish" preserve="all" />
+    <type fullname="TrackObjects.DynamiteTrigger" preserve="all" />
+    <type fullname="TrackObjects.FinishPoint" preserve="all" />
+    <type fullname="TrackObjects.FinishRoad" preserve="all" />
     <type fullname="TrackObjects.FinishTrigger" preserve="all" />
     <type fullname="TrackObjects.ItemsToHide" preserve="all" />
     <type fullname="TrackObjects.RampAcceleration" preserve="all" />
-    <type fullname="TrackObjects.ScoreTrigger" preserve="all" />
     <type fullname="TrackObjects.TutorTrigger" preserve="all" />
     <type fullname="UI.Animation.UIPositionAnimator" preserve="all" />
     <type fullname="UI.Animation.UIRotateAnimator" preserve="all" />
@@ -36,9 +39,9 @@
     <type fullname="UI.Game.AttemptUI" preserve="all" />
     <type fullname="UI.Game.GameUI" preserve="all" />
     <type fullname="UI.Game.GarageBtn" preserve="all" />
+    <type fullname="UI.Game.MoneyPlusText" preserve="all" />
     <type fullname="UI.Game.ProgressUI" preserve="all" />
     <type fullname="UI.Game.TimerUI" preserve="all" />
-    <type fullname="UI.Game.TransparencyUI" preserve="all" />
     <type fullname="UI.Game.Tricks.TrickBlockUI" preserve="all" />
     <type fullname="UI.Game.Tricks.TrickPrefab" preserve="all" />
     <type fullname="UI.Game.Tricks.TrickScorePlus" preserve="all" />
@@ -49,7 +52,6 @@
     <type fullname="UI.Popups.PopUpsController" preserve="all" />
     <type fullname="UI.Popups.PopUpUI" preserve="all" />
     <type fullname="UIAudioControl" preserve="all" />
-    <type fullname="VFX.FinishLineParticle" preserve="all" />
     <type fullname="VFX.PostProcessControl" preserve="all" />
     <type fullname="VFX.SpeedParticle" preserve="all" />
     <type fullname="VFX.TrailParticle" preserve="all" />
@@ -88,6 +90,7 @@
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.Cinemachine.CinemachineBlenderSettings" preserve="all" />
     <type fullname="Unity.Cinemachine.CinemachineBrain" preserve="all" />
     <type fullname="Unity.Cinemachine.CinemachineCamera" preserve="all" />
     <type fullname="Unity.Cinemachine.CinemachineDecollider" preserve="all" />
@@ -195,7 +198,6 @@
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
-    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
